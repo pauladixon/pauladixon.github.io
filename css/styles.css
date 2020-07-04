@@ -12,12 +12,10 @@ body {
     align-items: center;
     flex-flow: column wrap;
     font-family: orator-std, monospace;
-    /* font-style: italic; */
     text-transform: lowercase;
     letter-spacing: .05rem;
     color: #4b414a;
     background: #f0eadc;
-    /* background-color: #241a1a; */
     outline: none;
     font-size: 13.5px;
     overflow-x: hidden;
@@ -33,7 +31,7 @@ header {
 }
 
 .title {
-    /* text-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.1); */
+    text-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.1);
     font-size: 16px;
 }
 
@@ -197,18 +195,18 @@ footer {
   and (orientation: portrait) { 
 
     .sphere {
-        width: 250px !important;
-        height: 250px !important;
-        margin-left: 5px;
+        width: 350px !important;
+        height: 350px !important;
+        margin-left: 2px;
     }
 
     #canvas {
-        width: 250px !important;
-        height: 250px !important;
+        width: 350px !important;
+        height: 350px !important;
     }
 
     main {
-        max-width: 360px;
+        max-width: 350px;
         margin-left: -4.25px;
     }
 
@@ -219,9 +217,13 @@ footer {
         justify-content: center;
         flex-flow: row wrap;
     }
+
+    .project {
+        margin: 0px 30px;
+    }
     
     .project-grid {
-        width: 360px;
+        width: 350px;
     }
 
     .project:last-of-type {
@@ -257,10 +259,16 @@ footer {
     }
 
     .one {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     } 
 
     .two {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     } 
+
+    .pointer {
+        border-top: 15px solid 	#4b414a;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+    }
 }
