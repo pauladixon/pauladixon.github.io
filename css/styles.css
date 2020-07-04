@@ -200,7 +200,7 @@ footer {
     .sphere {
         width: 350px !important;
         height: 350px !important;
-        margin: 110px 0px 110px 2px;
+        margin: 100px 0px 110px 2px;
         -webkit-tap-highlight-color: transparent;
     }
 
@@ -237,8 +237,7 @@ footer {
     }
 
     .box {
-        margin: 0px 0px;
-        width: 300px;
+        margin: 0px 30px;
     }
 
     .contact {
