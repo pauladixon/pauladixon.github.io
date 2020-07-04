@@ -1,0 +1,266 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    font-family: orator-std, monospace;
+    /* font-style: italic; */
+    text-transform: lowercase;
+    letter-spacing: .05rem;
+    color: #4b414a;
+    background: #f0eadc;
+    /* background-color: #241a1a; */
+    outline: none;
+    font-size: 13.5px;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    width: 98%;
+    margin-left: 2%;
+}
+
+.title {
+    /* text-shadow: 0 .1rem .1rem rgba(0, 0, 0, 0.1); */
+    font-size: 16px;
+}
+
+.title span {
+    color: #c36c30;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.directions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+  
+.pointer {
+    width: 0;
+    height: 0;
+    border-top: 20px solid 	#4b414a;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    transform: translateX(-50%);
+    opacity: 15%;
+}
+
+.left {
+    margin-left: 18%;
+}
+
+.right {
+    margin-right: 18%;
+}
+  
+.sphere {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    margin: 150px 0px 150px 0px;
+}
+  
+#canvas {
+    position: absolute;
+    border-radius: 50%;
+}
+  
+@keyframes wheelSpin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1920deg);
+    }
+}
+
+.main {
+    margin: 100px 20px 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    max-width: 1000px;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.lists a {
+    text-decoration: none;
+    color: #c36c30;
+    margin: 0px 10px;
+}
+
+.project {
+    width: 340px;
+    height: 200px;
+    margin: 15px 30px;
+}
+
+.one {
+    margin-bottom: 50px;
+} 
+
+.two {
+    margin-bottom: 50px;
+} 
+
+.description {
+    letter-spacing: 0rem;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.languages {
+    font-size: 12px;
+}
+
+.contact {
+    width: 340px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    font-size: 14px;
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 16px;
+}
+
+.box {
+    width: 340px;
+    height: 130px;
+    border: solid .25px #c36c30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 15px;
+}
+
+.link {
+    width: 140px;
+    display: flex;
+}
+
+footer {
+    width: 98%;
+    text-align: right;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    .sphere {
+        width: 250px !important;
+        height: 250px !important;
+        margin-left: 5px;
+    }
+
+    #canvas {
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    main {
+        max-width: 360px;
+        margin-left: -4.25px;
+    }
+
+    .main {
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    
+    .project-grid {
+        width: 360px;
+    }
+
+    .project:last-of-type {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        margin: 0px 0px;
+        width: 300px;
+    }
+
+    .contact {
+        margin: 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link {
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 13px;
+    }
+
+    .contact {
+        font-size: 13px;
+    }
+
+    .one {
+        margin-bottom: 60px;
+    } 
+
+    .two {
+        margin-bottom: 30px;
+    } 
+}
