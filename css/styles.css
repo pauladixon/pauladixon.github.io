@@ -194,6 +194,9 @@ footer {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
 
+    body {
+        -webkit-tap-highlight-color: transparent;
+    }
     .sphere {
         width: 350px !important;
         height: 350px !important;
