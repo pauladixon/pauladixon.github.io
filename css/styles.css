@@ -92,7 +92,7 @@ header {
 }
 
 .main {
-    margin: 100px 20px 15px 20px;
+    margin: 100px 20px 30px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,14 +120,6 @@ header {
     height: 200px;
     margin: 15px 30px;
 }
-
-.one {
-    margin-bottom: 50px;
-} 
-
-.two {
-    margin-bottom: 50px;
-} 
 
 .description {
     letter-spacing: 0rem;
@@ -261,14 +253,6 @@ footer {
     .contact {
         font-size: 13px;
     }
-
-    .one {
-        margin-bottom: 30px;
-    } 
-
-    .two {
-        margin-bottom: 10px;
-    } 
 
     .pointer {
         border-top: 15px solid 	#4b414a;
