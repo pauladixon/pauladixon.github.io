@@ -203,7 +203,7 @@ footer {
     }
 
     main {
-        max-width: 350px;
+        max-width: 370px;
         margin-left: -4.25px;
     }
 
@@ -220,7 +220,7 @@ footer {
     }
     
     .project-grid {
-        width: 350px;
+        width: 370px;
     }
 
     .project:last-of-type {
@@ -246,8 +246,18 @@ footer {
         justify-content: center;
     }
 
+    .project-title {
+        font-size: 12.5px;
+    }
+
+    .line a {
+        font-size: 12px;
+    }
+    
+
     .title {
-        font-size: 13px;
+        font-size: 14px;
+    
     }
 
     .contact {
