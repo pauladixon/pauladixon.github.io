@@ -15,6 +15,8 @@
 
 This is a portfolio providing links to my other web apps and projects. Checkout the site for more information on my previous work and stay tuned for future updates!
 
+This web app is additionally optimized for use on iOS Chrome.
+
 
 ## Technologies Used:
 
