@@ -207,6 +207,7 @@ footer {
 
     body {
         -webkit-tap-highlight-color: transparent;
+        font-size: 12px;
     }
     .sphere {
         width: 350px !important;
@@ -288,5 +289,13 @@ footer {
         border-top: 15px solid 	#4b414a;
         border-left: 6px solid transparent;
         border-right: 6px solid transparent;
+    }
+
+    footer {
+        width: 98%;
+        text-align: center;
+        margin-right: 2%;
+        margin-bottom: 10px;
+        font-size: 10px;
     }
 }
