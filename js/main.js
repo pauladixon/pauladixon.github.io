@@ -64,3 +64,4 @@ function copyEmailAddress() {
   }
   window.getSelection().removeAllRanges()
 }
+
