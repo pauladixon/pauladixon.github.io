@@ -112,6 +112,9 @@ header {
 .lists a {
     text-decoration: none;
     color: #c36c30;
+}
+
+.project-link {
     margin: 0px 10px;
 }
 
@@ -145,20 +148,19 @@ header {
 }
 
 .contact {
-    width: 340px;
+    width: 90%;
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
     font-size: 14px;
-    width: 95%;
-    margin-left: 5%;
-    margin-top: 16px;
+    text-decoration: none;
+    padding-right: 10px;
 }
 
 .box {
-    width: 340px;
+    width: 330px;
     height: 130px;
     border: solid .25px #c36c30;
     display: flex;
@@ -171,6 +173,22 @@ header {
 .link {
     width: 140px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blank-link {
+    font-size: 0px;
+    width: 0px;
+}
+
+#email-copy-button {
+    background-color: transparent;
+    border: hidden;
+    text-decoration: none;
+    font-family: orator-std, monospace;
+    color: #c36c30;
+    outline: none;
 }
 
 footer {
@@ -204,7 +222,7 @@ footer {
 
     main {
         max-width: 370px;
-        margin-left: -4.25px;
+        margin-left: -8px;
     }
 
     .main {
@@ -237,6 +255,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-right: 0px;
     }
 
     .link {
