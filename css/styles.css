@@ -225,7 +225,7 @@ footer {
 
     main {
         max-width: 370px;
-        margin-left: -6px;
+        margin-left: -5px;
     }
 
     .main {
@@ -259,7 +259,7 @@ footer {
         align-items: center;
         justify-content: center;
         padding-right: 0px;
-        font-size: 11.5px;
+        font-size: 11px;
     }
 
     .link {
@@ -270,11 +270,11 @@ footer {
     }
 
     .project-title {
-        font-size: 11.5px;
+        font-size: 11px;
     }
 
     .line a {
-        font-size: 11.5px;
+        font-size: 11px;
     }
     
 
