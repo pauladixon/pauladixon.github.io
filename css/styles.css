@@ -162,7 +162,7 @@ header {
 .box {
     width: 330px;
     height: 130px;
-    border: solid .25px #c36c30;
+    border: solid .5px #c36c30;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,7 +268,7 @@ footer {
     }
 
     .project-title {
-        font-size: 12.5px;
+        font-size: 12px;
     }
 
     .line a {
