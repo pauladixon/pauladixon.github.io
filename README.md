@@ -5,8 +5,6 @@
 
 [View the App](https://pauladixon.software/)
 
-check
-
 ## Screenshots:
 
 ![Screenshot1](https://i.imgur.com/DwV5HpQ.jpg)
